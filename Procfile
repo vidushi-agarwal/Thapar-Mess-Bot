@@ -1,1 +1,1 @@
-web: gunicorn just_check:app
+web: gunicorn deploy:app
