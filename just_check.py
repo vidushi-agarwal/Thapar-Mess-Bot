@@ -43,6 +43,7 @@ def makeWebhookResult(req):
     result=req.get("queryResult")
     print(result)
     parameters=result.get("parameters")
+    global hostelName
     if req.get("queryResult").get("action")=="intent.hostelToMenu":
         hostel=parameters.get("myNumber")
         if(hostel=="1"):
