@@ -3,8 +3,9 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
-str_end = "\n Is there anything else you would like to know?"
+
 def index():
+	str_end = "\n Is there anything else you would like to know?"
 	with open('data_iconicGirls.json') as json_file:
 		data=json.load(json_file)
 		ls=data[str(weekno)][today.strftime("%A")]
