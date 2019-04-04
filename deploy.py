@@ -24,7 +24,7 @@ from datetime import timedelta
 import datetime as dt
 import json 
 def checkJsonMeal(weekno,today):
-	with open('data_J.json') as json_file:
+	with open('data_iconicGirls.json') as json_file:
 		data=json.load(json_file)
 		ls=data[str(weekno)][today.strftime("%A")]
 		s='\n'
@@ -33,7 +33,7 @@ def checkJsonMeal(weekno,today):
 			s+='\n'.join(ls[key])
 		return ("Your meal for " + str(today.date()) + " is " + s)
 def checkJsonfood(weekno,today,foodType):
-	with open('data_J.json') as json_file:
+	with open('data_iconicGirls.json') as json_file:
 		data=json.load(json_file)
 		ls=data[str(weekno)][today.strftime("%A")][foodType]
 		s='\n'.join(ls)
@@ -55,7 +55,7 @@ def makeWebhookResult(req):
         print(speech) 
         return{
             "fulfillmentText":speech,
-            "source":"hostelIMess"
+            "source":"ThaparMessbot"
         }
     if req.get("queryResult").get("action")=="intent.foodTime":
         takeTime=parameters.get("date")
@@ -71,7 +71,7 @@ def makeWebhookResult(req):
         print(speech) 
         return{
         	"fulfillmentText":speech,
-            "source":"hostelIMess"
+            "source":"ThaparMessbot"
         }  
     
 if __name__ =='__main__':

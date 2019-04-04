@@ -5,428 +5,356 @@
 		{
 			"Breakfast": 
 							[
-								"Sweet Corn",
-								 " Hot Milk",
-								  "Hot Coffee",
-								  "Bournvita Milk",
-								  "Omelette",
-								  "Ajwain Parantha w Aloo Sabji",
-								  "Tea",
-								  "Brown and White Bread",
-								  "Boiled Egg",
-								  "Pickle, Jam, Sauce",
-								  "Butter"],
+								"Mix prantha", 
+								"vermiceilli" , 
+								"boiled egg and omelette"],
 			"Lunch":
-							["Chapati",
-							  "Jeera Rice",
-							  "Boondi Raita",
-							  "Mix Veg.",
-							  "Rajma",
-							  "Pickle, Salad"],
+							["Chole bhature", 
+								"Steam rice", 
+								"Boondi raita", 
+								"Sirka onion", 
+								"Green chutney",
+								"Lassi (plain)"],
 			  "Dinner":
-							["Jalebi",
-							  "Panchratan Dal",
-							  "Ghiya Kofta",
-							  "Rice",
-							  "Chapati",
-							  "Pickle, Salad",
-							  "Sweet Corn Soup"]
+							["Navratni dal", 
+								"Cheema Nutri Matar ",
+								" steam rice",
+								" chapatti", 
+								"salad", 
+								"Jalebi ",
+								"curd"]
 		
 		},
 		"Monday":
 		{
 			"Breakfast": 
-							[ "Moong Sprouts",
-							  "Hot Milk",
-							  "Hot Coffee",
-							  "Bournvita Milk",
-							  "Egg Bhurji",
-							  "Aloo Pyaaz Parantha w Curd",
-							  "CornFlakes",
-							  "Tea",
-							  "Brown and White Bread",
-							  "Boiled Eggs",
-							  "Pickle, Jam , Sauce",
-							  "Butter"],
+							["Aloo pyaaz paratha",
+								"macroni", 
+								"Boiled eggs and egg bhurji", 
+								"curd", 
+								"veg stuffing"],
 			"Lunch":
-							["Chapati",
-							  "Jeera Rice",
-							  "Mix Veg. Raita",
-							  "Black Chana",
-							  "Aloo Beans",
-							  "Pickle,Salad, Mix Chutney"],
+							["Black Chana", 
+								"Jeera Rice", 
+								"Chutney", 
+								"Chapatti", 
+								"salad", 
+								"Mix Veg Raita", 
+								"Nimbu pani"],
 			  "Dinner":
-							["Suji Halwa",
-							  "Paneer Lababdar",
-							  "Green Chutney",
-							  "Rice",
-							  "Chapati",
-							  "Tomato Soup",
-							  "Pickle, Salad"]
+							["Karela", 
+								"Masoor Sabut", 
+								"Jeera rice",
+								" chapatti", 
+								"curd"," salad",
+								" Strawberry icecream"]
 		},
 		"Tuesday":
 		{
 			"Breakfast": [
-							"Macaroni",
-							 " Hot Milk",
-							  "Hot Coffee",
-							  "Bournvita Milk",
-							  "Omelette",
-							  "Gobi Parantha w Curd",
-							  "Tea",
-							  "Brown and White Bread",
-							  "Boiled Egg",
-							  "Pickle, Jam, Sauce",
-							  "Butter"],
+							"Paneer paratha", 
+							"corn flakes",
+							" boiled eggs and omelette", 
+							"curd"],
 			"Lunch":
-							["Chapati",
-							  "Steam Rice",
-							  "Tomato, Green Chilli Chutney",
-							  "Pakoda Kadhi",
-							  "Aloo Jeera",
-							  "Pickle, Salad"],
+							["Rajma", 
+								"Jeera rice",
+								"chapatti", 
+								"green chutney",
+								"salad", 
+								"Boondi raita",
+								" mango drink"],
 			  "Dinner":
-							["Coconut Laddu",
-							 " Aloo Methi",
-							  "Rajma",
-							  "Rice",
-							  "Chapati",
-							  "Pickle, Salad"]
+							["Aalo baigan", 
+								"Chana dal tadka",
+								" Jeera rice",
+								" missi roti",
+								" salad",
+								" Gulab Jamun",  
+								"curd"]
 		},
 		"Wednesday":
 		{
 			"Breakfast": 
-							["Chana Chaat",
-							  "Hot Milk",
-							  "Hot Coffee",
-							  "Bournvita Milk",
-							  "Egg Bhurji",
-							  "Dal Parantha w Curd",
-							  "Cornflakes",
-							  "Tea",
-							  "Brown and White Bread",
-							  "Boiled Eggs",
-							  "Pickle, Jam, Sauce",
-							  "Butter"],
+							["Plain pranth with aloo gravy",
+							" namkeen dalia", 
+							"boiled egg and egg bhurji", 
+							"curd"],
 			"Lunch":
-							[ "Chapati",
-							  "Jeera Steam Rice",
-							  "Lemon Water",
-							  "Kadhai Paneer",
-							  "Mint Chutney",
-							  "Pickle, Salad"],
+							["Sambhar", 
+								"uttapam", 
+								"Lemon rice", "Salad",
+								" Coconut chutney(1st week)/Chinese noodles with Manchurian gravy(3rd  week)",
+								" Roohafza"],
 			  "Dinner":
-							[ "Gud Wali Kheer",
-							  "Palak Corn",
-							  "Dal Makhni",
-							  "Steam Rice",
-							  "Chapati",
-							  "Pickle, Salad",
-							  "Hot & Sour Soup"]
+							["Ghiya Kofte", 
+								"Sabut  Moong Dal", 
+								"Jeera rice", "chapatti", 
+								"salad", "Curd"
+								,  "Rice Kheer"]
 		},
 		"Thursday":
 		{
 			"Breakfast": 
-							["Vermicili",
-							  "Hot Milk",
-							  "Hot Coffee",
-							  "Bournvita Milk",
-							  "Omelette",
-							  "Mix Veg. Parantha w Curd",
-							  "Tea",
-							  "White and Brown Bread",
-							  "Boiled Eggs",
-							  "Pickle, Jam, Sauce",
-							  "Butter"],
+							["Mix  paratha", 
+								"Sweet Corn", 
+								"boiled egg and omelette", 
+								"curd"],
 			"Lunch":
-							["Chhola Kulcha",
-							  "Fried Rice",
-							  "Boondi Raita",
-							  "Lacha"],
+							["Kadi", 
+								"jeera aloo", 
+								"steam rice", 
+								"chapatti", 
+								"salad", 
+								"Leechi drink"],
 			  "Dinner":
-							["Besan Barfi",
-							  "Mix Veg. Raita",
-							  "Aloo Matar Rasadar",
-							  "Veg Biryani",
-							  "Chapati",
-							  "Pickle, Salad"]
+							["Matar mushroom",
+							" Mix Dal", 
+							"Jeera rice", 
+							"chapatti", 
+							"salad",
+							"chutney", 
+							"curd",
+							"besan burfi"]
 		},
 		"Friday":
 		{
 			"Breakfast": 
-							["Veg. Sandwich",
-							  "Hot Milk",
-							  "Hot Coffee",
-							  "Bournvita Milk",
-							  "Egg Bhurji",
-							  "Paneer Parantha w Chutney",
-							  "Tea",
-							  "Brown and White Bread",
-							  "Boiled Egg",
-							  "Pickle, Jam, Sauce",
-							  "Butter"],
+							["Aloo prantha", 
+								"Poha", 
+								"boiled egg and egg bhurji", 
+								"curd", 
+								"Stuffing"],
 			"Lunch":
-							[ "Chapati",
-							  "Peas Rice",
-							  "Dal Makhni",
-							  "Fruit Raita",
-							  "Mix Veg.",
-							  "Pickle, Salad"],
+							[ "Cheese Chilly" ,
+								"Mix veg" ,
+								 "steamed rice",
+								 " salad",
+								 " chapatti",
+								 " Mix raita",
+								 " Jaljeera drink" ],
 			  "Dinner":
-							["Gulab Jamun",
-							  "Aloo Palak Bhurji",
-							  "Arhar Dal Fry",
-							  "Rice",
-							  "Chapati",
-							  "Pickle, Salad",
-							  "Veg. Soup"]
+							["Bhindi/Aarbi", 
+								"Rongi", 
+								"Jeera rice", 
+								"chapatti", 
+								"salad", 
+								"Fruit cake"]
 		},
 	"Saturday":
 		{
 			"Breakfast": 
-							["Bread Pakoda",
-							  "Hot Milk",
-							  "Hot Coffee",
-							  "Bournvita Milk",
-							  "Egg Bhurji",
-							  "Methi Parantha w Curd",
-							  "Cornflakes",
-							  "Tea",
-							  "Brown and White Bread",
-							  "Boiled Egg",
-							  "Pickle, Jam, Sauce",
-							  "Butter"],
+							["Dal prantha", 
+								"Chana chat" ,
+								"boiled egg and bhurji", 
+								"curd"],
 			"Lunch":
-							[ "Puri",
-							  "Steamed Rice",
-							  "Sweet Lassi",
-							  "Green Chutney",
-							  "Aloo Curry",
-							  "Pickle, Laccha Onion"],
+							[ "Dry Aalo matar", 
+							" Dal Makhni", 
+							"Jeer a rice", 
+							"chapatti",
+							" mixed jeera raita", 
+							"salad", 
+							"Orange drink"],
 			  "Dinner":
-							["Sawaiya Kheer",
-							  "Sarson Ka Saag",
-							  "Maa ki Dal",
-							  "Makki Ki Roti",
-							  "Pickle, Salad"]
+							["Toori",
+								"Moth dal", 
+								"jeera rice", 
+								"chapatti", 
+								"salad",
+								"curd",
+								"coconut laddu"]
 		}
 	},
 "1":
 	{
+
 		"Sunday":
 		{
 			"Breakfast": 
-							["Sweet Corn",
-							  "Hot Milk",
-							  "Hot Coffee",
-							  "Bournvita Milk",
-							  "Omelette",
-							  "Ajwain Parantha",
-							  "Jeera Aloo",
-							  "Tea",
-							  "Brown and White Bread",
-							  "Boiled Egg",
-							  "Pickle, Jam, Sauce",
-							  "Butter"],
+							[
+								"Dal Prantha",
+								"Macroni",
+							
+							"Boiled eggs and omelette",
+							"Curd"
+							],
 			"Lunch":
-							["Bhatura",
-							  "Peas Pulao",
-							  "Sweet Lassi",
-							  "Chhole",
-							  "Green Chutney",
-							  "Pickle, Laccha Onion"],
+							["Aloo puri", 
+								"salad", 
+								"rice",
+								"jeera raita",
+								" lassi (plain)"],
 			  "Dinner":
-							["Jalebi",
-							  "Dal Makhni",
-							  "Aloo Gobi Adraki",
-							  "Steamed Rice",
-							  "Chapati",
-							  "Pickle, Salad",
-							  "Tomato Soup"]		
+							["Aloo bengan", 
+								"moth dal", 
+								"curd",
+								"steamed rice",
+								"chapatti", "gulab jamun",
+								"salad"]
+		
 		},
 		"Monday":
 		{
 			"Breakfast": 
-							["Moong Sprouts",
-							  "Hot Milk",
-							  "Hot Coffee",
-							  "Bournvita Milk",
-							  "Egg Bhurji",
-							  "Daal Parantha w Curd",
-							  "Cornflakes",
-							  "Tea",
-							  "Brown and White Bread",
-							  "Boiled Eggs",
-							  "Pickle, Jam, Sauce",
-							  "Butter"],
+							 [
+								"Mixed prantha", 
+								"Bread pakora(2) /cutlet(4) with tamarind sauce",
+								"Boiled eggs and egg bhurji",
+								"Curd"
+								],
+
 			"Lunch":
-							[ "Pav Bhaji",
-							  "Veg. Pulao",
-							  "Boondi Raita",
-							  "Pickle, Salad(Onion and Sliced Lemon)"],
+							["Rajma", 
+								"Rice", 
+								"jeera raita", 
+								"chopped onion", 
+								"chapatti", 
+								"green chutney", 
+								"rasna/tang"],
+
 			  "Dinner":
-							["Gud Wali Kheer",
-							  "Dal Fry",
-							  "Gheeya Kofta",
-							  "Peas Pulao",
-							  "Missi Roti",
-							  "Pickle Salad",
-							  "Manchow Soup"]
+							["Masoor sabutdal", 
+								"Aloo karele",
+								"Jeera rice",
+								 "chapatti",
+								  "curd",
+								   "brownie",
+								   "salad"
+											]
+
 		},
 		"Tuesday":
 		{
 			"Breakfast": 
-							["Veg. Cutlet",
-							  "Hot Milk",
-							  "Hot Coffee",
-							  "Bournvita Milk",
-							  "Omelette",
-							  "Methi Parantha w Curd",
-							  "Tea",
-							  "Brown and White Bread",
-							  "Boiled Egg",
-							  "Pickle, Jam, Sauce",
-							  "Butter"],
+							["Paneer Onion Parantha",
+							"cornflakes",
+							"Boiled eggs and egg bhurji",
+							"Curd"
+							],
 			"Lunch":
-							["Chapati",
-							  "Steam Rice",
-							  "Fruit Raita",
-							  "Kaali Masoor",
-							  "Aloo Beans",
-							  "Pickle, Salad"],
+							["Channa dal", 
+								"baingan bharta",
+								" chapati", 
+								"steamed rice", 
+								"mix raita", 
+								"dhaniya chutney", 
+								"lemon water"],
 			  "Dinner":
-							[ "Suji Halwa",
-							  "Green Chutney",
-							  "Paneer Butter Masala",
-							  "Rice",
-							  "Chapati",
-							  "Pickle, Salad"]
+							["Rongi", 
+								"ghiya dal", 
+								"rice",
+								"chapati", 
+								"curd", 
+								"brownie","salad"] 
+
 		},
 		"Wednesday":
 		{
 			"Breakfast": 
-							["Chana Chaat",
-							  "Hot Milk",
-							  "Hot Coffee",
-							  "Bournvita Milk",
-							  "Egg Bhurji",
-							  "Mix Veg. Parantha w Curd",
-							  "Cornflakes",
-							  "Tea",
-							  "Brown and White Bread",
-							  "Boiled Eggs",
-							  "Pickle, Jam, Sauce",
-							  "Butter"],
-			"Lunch":
-							["Chapati",
-							  "Peas Rice",
-							  "Gheeya Raita",
-							  "Mix Veg.",
-							  "Dal Makhni",
-							  "Pickle, Salad"
+							["Aloo Parantha,Sweet corns",
+							"Boiled eggs and omelette",
+							"Curd"  
 							],
+			"Lunch":
+							["Cheese chilly",
+								"petha",
+								"cucumber raita", 
+								"jeera rice", 
+								"cucumber raita", 
+								"jaljeera"],
+
 			  "Dinner":
-							["Besan Barfi",
-							  "Rajma",
-							  "Tomato Chutney",
-							  "Jeera Rice",
-							  "Chapati",
-							  "Pickle, Salad",
-							  "Hot & Sour Soup"]
+							["Dal makhni", 
+								"mix veg", 
+								"jeera rice", 
+								"missi roti",
+								" curd", 
+								"rice kheer",
+								"salad"] 
+
 		},
 		"Thursday":
 		{
 			"Breakfast": 
-							[
-							"Veg. Sandwich",
-							 " Hot Milk",
-							  "Hot Coffee",
-							  "Bournvita Milk",
-							  "Omelette",
-							  "Aloo Pyaaz Parantha w Curd",
-							  "Tea",
-							  "White and Brown Bread",
-							  "Boiled Eggs",
-							  "Pickle, Jam, Sauce",
-							  "Butter"],
+							["Plain prantha with aloo sabzi",
+							" veg vermicelli",
+								"Boiled eggs and omelette",
+								"Curd"
+								] ,
 			"Lunch":
-							["Chapati",
-							  "Jeera Rice",
-							  "Mint Chutney",
-							  "Paneer Matar",
-							  "Vinegar Onion Salad",
-							  "Pickle, Salad"
+							["Black chane",
+								"Keema nutri",
+								" chapatti",
+								"boondi raita",
+								"Steamed rice",
+							"Roohafsa",
+							" boondi raita"
 							],
+
 			  "Dinner":
-							["Coconut Laddu",
-							  "Palak Corn",
-							  "Moong ki Dal",
-							  "Rice",
-							  "Chapati",
-							  "Pickle, Salad"
-							]
+							["Moongimasar dal",
+							"bindi/arbi", 
+							"rice", 
+							"cucumber raita", 
+							"ice cream ",
+							"salad" ]
+
 		},
 		"Friday":
 		{
 			"Breakfast": 
-							["Macaroni",
-							  "Hot Milk",
-							  "Hot Coffee",
-							  "Bournvita Milk",
-							  "Egg Bhurji",
-							  "Gobi Parantha w Curd",
-							  "Cornflakes",
-							  "Tea",
-							  "Brown and White Bread",
-							  "Boiled Egg",
-							  "Pickle, Jam, Sauce",
-							  "Butter"],
+							["Onion parantha",
+							" Poha",
+								"Boiled eggs and egg bhurji",
+								"Curd"
+								], 
+
 			"Lunch":
-							["Chapati",
-							  "Steam Rice",
-							  "Tomato Chutney",
-							  "Aloo Jeera",
-							  "Pakoda CUrry",
-							  "Spicy Tomato Chutney",
-							  "Pickle Salad"
-							  ],
+							["Channekulche", 
+								"veg biryani",
+								" chutney","curd", 
+								"salad",
+								"leechi drink"] ,
+
 			  "Dinner":
-							["Gulab Jamun",
-							  "Sarson ka Saag",
-							  "Maa ki Dal",
-							  "Makki ki Roti",
-							  "Pickle, Salad",
-							  "Sweet Corn Soup"
+							["Kadhai paneer", 
+								"tori", 
+								"steamed rice",
+								"chapatti",
+								"curd",
+							"Custard",
+							"salad"
 							]
+
 		},
 		"Saturday":
 		{
 			"Breakfast": 
-							["Moong Sprouts",
-							  "Hot Milk",
-							  "Hot Coffee",
-							  "Bournvita Milk",
-							  "Omelette",
-							  "Paneer Parantha w Chutney",
-							  "Tea",
-							  "Brown and White Bread",
-							  "Boiled Egg",
-							  "Pickle, Jam, Sauce",
-							  "Butter"],
+							["Mixed Parantha",
+							"Club Sandwich",
+							"Boiled eggs and omelette",
+							"Curd"  
+							] ,
+
 			"Lunch":
-							["Missi Roti",
-							  "Jeera Rice",
-							  "Green Beans Aloo",
-							  "Boondi Raita",
-							  "Arhar Dal",
-							  "Pickle, Salad"],
+							["Matar mushrooms", 
+								"dry aloo matarjeera rice",
+								" chapatti",
+								" salad", 
+								"mix raita", 
+								"mango drink"
+						],
+
 			  "Dinner":
-							[ "Sewaiyan",
-								"Panchrattan Dal",
-								"Kadhai Soya",
-								"Veg. Pulao",
-								"Chapati",
-								"Pickle, Salad"]
+							["Mix dal", 
+								"Ghiya kofte", 
+								"steamed rice",
+								"chapatti","curd",
+							"ice cream (butterscotch)",
+							"salad"
+							]
+
 		}
 
 
