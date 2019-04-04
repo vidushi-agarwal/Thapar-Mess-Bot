@@ -23,6 +23,7 @@ from datetime import datetime
 from datetime import timedelta
 import datetime as dt
 import json 
+str_end="Is there anything else you would like to know?"
 def checkJsonMeal(weekno,today):
 	with open('data_iconicGirls.json') as json_file:
 		data=json.load(json_file)
@@ -31,12 +32,14 @@ def checkJsonMeal(weekno,today):
 		for key in ls.keys():
 			s+="\n" + key + ":\n"
 			s+='\n'.join(ls[key])
+        s+='\n'.join(str_end)
 		return ("Your meal for " + str(today.date()) + " is " + s)
 def checkJsonfood(weekno,today,foodType):
 	with open('data_iconicGirls.json') as json_file:
 		data=json.load(json_file)
 		ls=data[str(weekno)][today.strftime("%A")][foodType]
 		s='\n'.join(ls)
+        s+='\n'.join(str_end)
 		return("Your "+foodType+" for "+str(today.date()) +" is "+s) 
 def makeWebhookResult(req):
     ref_date=dt.datetime(2019,3,11).date()
