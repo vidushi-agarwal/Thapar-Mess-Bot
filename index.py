@@ -4,4 +4,5 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-	return "<h1>Don't Delete Me</h1>"
+	str="\n fuck u"
+	return ("<h1>Don't Delete Me</h1>"+str)
