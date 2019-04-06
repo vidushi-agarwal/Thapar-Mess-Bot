@@ -16,7 +16,7 @@
 								"Green chutney",
 								"Lassi (plain)"],
 			  "Dinner":
-							["Navratni dal", 
+							["Masoor Sabut dal", 
 								"Cheema Nutri Matar ",
 								" steam rice",
 								" chapatti", 
@@ -42,12 +42,11 @@
 								"Mix Veg Raita", 
 								"Nimbu pani"],
 			  "Dinner":
-							["Karela", 
-								"Masoor Sabut", 
+							["Matar Paneer", 
 								"Jeera rice",
 								" chapatti", 
 								"curd"," salad",
-								" Strawberry icecream"]
+								" Fruit cake"]
 		},
 		"Tuesday":
 		{
@@ -76,7 +75,7 @@
 		"Wednesday":
 		{
 			"Breakfast": 
-							["Plain pranth with aloo gravy",
+							["Plain parantha with aloo gravy",
 							" namkeen dalia", 
 							"boiled egg and egg bhurji", 
 							"curd"],
@@ -108,7 +107,7 @@
 								"salad", 
 								"Leechi drink"],
 			  "Dinner":
-							["Matar mushroom",
+							["Corn Palak",
 							" Mix Dal", 
 							"Jeera rice", 
 							"chapatti", 
@@ -120,31 +119,30 @@
 		"Friday":
 		{
 			"Breakfast": 
-							["Aloo prantha", 
+							["Dal prantha", 
 								"Poha", 
 								"boiled egg and egg bhurji", 
-								"curd", 
-								"Stuffing"],
+								"curd"],
 			"Lunch":
 							[ "Cheese Chilly" ,
 								"Mix veg" ,
-								 "steamed rice",
+								 "fried rice",
 								 " salad",
 								 " chapatti",
 								 " Mix raita",
 								 " Jaljeera drink" ],
 			  "Dinner":
-							["Bhindi/Aarbi", 
-								"Rongi", 
+							["Kadhai Soya",
+								"Navaratan Dal",
 								"Jeera rice", 
 								"chapatti", 
 								"salad", 
-								"Fruit cake"]
+								"Icecream"]
 		},
 	"Saturday":
 		{
 			"Breakfast": 
-							["Dal prantha", 
+							["Aaloo prantha", 
 								"Chana chat" ,
 								"boiled egg and bhurji", 
 								"curd"],
@@ -157,13 +155,13 @@
 							"salad", 
 							"Orange drink"],
 			  "Dinner":
-							["Toori",
-								"Moth dal", 
+							["Ghiya Chana",
+								"Moong masar dal", 
 								"jeera rice", 
 								"chapatti", 
 								"salad",
 								"curd",
-								"coconut laddu"]
+								"Fruit Custard"]
 		}
 	},
 "0":
@@ -173,11 +171,10 @@
 		{
 			"Breakfast": 
 							[
-								"Dal Prantha",
-								"Macroni",
-							
-							"Boiled eggs and omelette",
-							"Curd"
+								"Mixed Parantha", 
+								"cornflakes Boiled eggs and egg burji",
+								"Curd "
+
 							],
 			"Lunch":
 							["Aloo puri", 
@@ -186,22 +183,21 @@
 								"jeera raita",
 								" lassi (plain)"],
 			  "Dinner":
-							["Aloo bengan", 
-								"moth dal", 
-								"curd",
-								"steamed rice",
-								"chapatti", "gulab jamun",
-								"salad"]
+							["Ghiya", 
+								"chana dal", 
+								"rice",
+								"chapati", "curd", 
+								"salad", "Gulab Jamun"]
 		
 		},
 		"Monday":
 		{
 			"Breakfast": 
 							 [
-								"Mixed prantha", 
-								"Bread pakora(2) /cutlet(4) with tamarind sauce",
+								"Aloo Parantha", "Sweet corns",
 								"Boiled eggs and egg bhurji",
-								"Curd"
+								"Curd "
+
 								],
 
 			"Lunch":
@@ -214,71 +210,67 @@
 								"rasna/tang"],
 
 			  "Dinner":
-							["Masoor sabutdal", 
-								"Aloo karele",
-								"Jeera rice",
-								 "chapatti",
-								  "curd",
-								   "brownie",
-								   "salad"
+							["Dal makhni",
+							" kadhai veg", 
+							"jeera rice", 
+							"missi roti", 
+							"salad", 
+							"coconut laddu"
 											]
 
 		},
 		"Tuesday":
 		{
 			"Breakfast": 
-							["Paneer Onion Parantha",
-							"cornflakes",
-							"Boiled eggs and egg bhurji",
+							["Plain prantha with aloo sabzi",
+							" veg vermicelli",
+							" boiled eggs and omlette",
 							"Curd"
+
 							],
 			"Lunch":
-							["Channa dal", 
-								"baingan bharta",
-								" chapati", 
-								"steamed rice", 
-								"mix raita", 
-								"dhaniya chutney", 
-								"lemon water"],
+							["Matar paneer", 
+								"jeera rice",
+								" chapatti", 
+								"salad", 
+								"mix raita",
+							 "mango drink"],
 			  "Dinner":
-							["Rongi", 
-								"ghiya dal", 
-								"rice",
-								"chapati", 
-								"curd", 
-								"brownie","salad"] 
+							["Sabut masar dal", 
+								"palak corn",
+								"jeera rice", 
+								"curd",
+								" salad ",
+								"gulab jamun"] 
 
 		},
 		"Wednesday":
 		{
 			"Breakfast": 
-							["Aloo Parantha,Sweet corns",
-							"Boiled eggs and omelette",
-							"Curd"  
+							["Mixed prantha",
+							" Bread pakora(2) /cutlet(4) with tamarind sauce",
+							"Boiled eggs and egg bhurji",
+							"Curd" 
+
 							],
 			"Lunch":
-							["Cheese chilly",
-								"petha",
-								"cucumber raita", 
-								"jeera rice", 
-								"cucumber raita", 
-								"jaljeera"],
+							["Chinese noodles with Manchurian gravy",
+								"fried rice", 
+								"Roohafza "],
 
 			  "Dinner":
-							["Dal makhni", 
-								"mix veg", 
-								"jeera rice", 
-								"missi roti",
-								" curd", 
-								"rice kheer",
-								"salad"] 
+							["Navratani dal",
+							" corn palak",
+							" jeera rice", 
+							"curd",
+							" salad ",
+							"vermicelli kheer"] 
 
 		},
 		"Thursday":
 		{
 			"Breakfast": 
-							["Plain prantha with aloo sabzi",
-							" veg vermicelli",
+							["Paneer onion parantha", "sweet daliya", 
 								"Boiled eggs and omelette",
 								"Curd"
 								] ,
@@ -288,17 +280,16 @@
 								" chapatti",
 								"boondi raita",
 								"Steamed rice",
-							"Roohafsa",
+							"Jalzeera",
 							" boondi raita"
 							],
 
 			  "Dinner":
-							["Moongimasar dal",
-							"bindi/arbi", 
-							"rice", 
-							"cucumber raita", 
-							"ice cream ",
-							"salad" ]
+							["Keema gobi", 
+							" moongi masar dal", 
+							"steamed rice",
+							" chapatti", 
+							"icecream"  ]
 
 		},
 		"Friday":
@@ -318,41 +309,39 @@
 								"leechi drink"] ,
 
 			  "Dinner":
-							["Kadhai paneer", 
-								"tori", 
-								"steamed rice",
-								"chapatti",
-								"curd",
-							"Custard",
-							"salad"
+							["Chapar  kaddu",
+								"sabut moong dal",
+								"pulao" ,
+								"rice kheer"
 							]
 
 		},
 		"Saturday":
 		{
 			"Breakfast": 
-							["Mixed Parantha",
-							"Club Sandwich",
+							["Dal Parantha", 
+							" Macroni",
 							"Boiled eggs and omelette",
-							"Curd"  
+							"Curd "
+ 
 							] ,
 
 			"Lunch":
-							["Matar mushrooms", 
-								"dry aloo matarjeera rice",
-								" chapatti",
-								" salad", 
-								"mix raita", 
-								"mango drink"
+							["Channa dal" ,
+								"baingan bharta",
+								" chapati",
+								" steamed rice",
+								" mix raita",
+								" dhaniya chutney", 
+								"lemon water"
 						],
 
 			  "Dinner":
-							["Mix dal", 
-								"Ghiya kofte", 
-								"steamed rice",
-								"chapatti","curd",
-							"ice cream (butterscotch)",
-							"salad"
+							["Khatta meetha petha" ,
+							"masur sabut dal",
+
+							 "jeera rice","chapatti",
+							 "fruit custard"
 							]
 
 		}
