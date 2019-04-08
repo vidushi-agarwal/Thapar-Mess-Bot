@@ -1,4 +1,6 @@
-![food](https://user-images.githubusercontent.com/22110239/55704124-11b03480-59f9-11e9-9538-171a2cf3d82f.jpg)
+
+<img src="https://user-images.githubusercontent.com/22110239/55704124-11b03480-59f9-11e9-9538-171a2cf3d82f.jpg" width=20% height=10%/>
+
 # Thapar Mess Bot
 ## This bot details the mess menu of various Thapar hostels
 ### Currently, this is implemented for Iconic Girls.
