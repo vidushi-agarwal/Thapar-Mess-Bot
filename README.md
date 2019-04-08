@@ -2,6 +2,13 @@
 # Thapar Mess Bot
 ## This bot details the mess menu of various Thapar hostels
 ### Currently, this is implemented for Iconic Girls.
+   ### Tools used:
+  <img src="https://dialogflow.com/images/deploy.png"/>
+  
+  <img src="https://www.herokucdn.com/deploy/button.svg"/>
+  
+  <img src="https://img.shields.io/pypi/pyversions/jenkins-badges.svg">
+
 
 * For **Telegram** Users:
  
@@ -17,5 +24,6 @@
    > `'Ok google, Talk to Thapar Mess'` 
 
    It is more than a Menu search, you can also have small talks with it.
+   
 
 
