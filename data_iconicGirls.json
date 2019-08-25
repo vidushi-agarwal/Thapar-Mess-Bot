@@ -37,7 +37,7 @@
 								"Aloo Baingan", 
 								"Chapatti", 
 								"salad",
-								"Rasna/tang" 
+								"Rasna/tang",
 								"Mix Raita", 
 								"Lemon drink"],
 			  "Dinner":
@@ -77,20 +77,23 @@
 							["Plain parantha with Aloo Sabzi",
 							" Namkeen dalia", 
 							"Boiled egg and egg bhurji", 
-							"Curd"
+							"Curd",
 							"Veg Stuffing"],
 			"Lunch":
 							["Sambhar", 
 								"Uttapam", 
-								"Lemon rice", "Salad",
+								"Lemon rice", 
+								"Salad",
 								" Coconut chutney",
 								" Roohafza"],
 			  "Dinner":
 							["Aarbi", 
 								"Sabut  Moong Dal", 
-								"Jeera rice", "chapatti", 
-								"salad", "Curd"
-								,  "Rice Kheer"]
+								"Jeera rice", 
+								"chapatti", 
+								"salad", 
+								"Curd", 
+								 "Rice Kheer"]
 		},
 		"Thursday":
 		{
@@ -152,7 +155,7 @@
 							"Chapatti",
 							"Jeera raita", 
 							"Salad",
-							"Green Chutney" 
+							"Green Chutney" ,
 							"Lemon drink"],
 			  "Dinner":
 							["Gheeya Kofta",
@@ -187,7 +190,8 @@
 							["Ghiya", 
 								"chana dal", 
 								"Steamed Rice",
-								"chapati", "curd", 
+								"chapati",
+								 "curd", 
 								"Kheer"]
 		
 		},
@@ -198,7 +202,7 @@
 								"Mixed Parantha",
 								"Sweet corns",
 								"Boiled eggs and egg bhurji",
-								"Curd "
+								"Curd ",
 								"Veg Stuffing"
 								],
 
@@ -228,7 +232,7 @@
 			"Breakfast": 
 							["Plain prantha with aloo sabzi",
 							" Veg stufffing ",
-							" poha "
+							" poha ",
 							" Boiled eggs and Egg bhurji",
 							" Curd"
 
@@ -350,7 +354,7 @@
 								" chapati",
 								" Jeera rice",
 								" mix raita",
-								" salad" 
+								" salad" ,
 								"lemon drink"
 						],
 
@@ -358,7 +362,8 @@
 							["Khatta meetha petha" ,
 							 "Masoor sabut dal",
    							"Chapatti",
-							 "Steamed rice","Salad",
+							 "Steamed rice",
+							 "Salad",
 							 "Pineapple Halwa"
 							]
 
