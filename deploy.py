@@ -50,7 +50,7 @@ def makeWebhookResult(req):
         	today=datetime.now()
         else:
         	today =parse(takeTime)
-            print("&&&&&&&&&&&&&&&&&&&&&&&&&&",today);#############
+            print("&&&&&&&&&&&&&&&&&&&&&&&&&&&",today);#############
         weekno=(abs(math.floor(((today.date()-ref_date).days)/7)))%2
         speech=checkJsonMeal(weekno,today)
         print("response from action messMenu")
