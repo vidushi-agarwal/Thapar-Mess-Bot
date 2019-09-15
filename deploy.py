@@ -43,7 +43,7 @@ def makeWebhookResult(req):
     ref_date=dt.datetime(2019,3,11).date()
     result=req.get("queryResult")
     print(result)
-    parameters=result.get("parameters")\
+    parameters=result.get("parameters")
     print(parameters.get("date"),"&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&", parse(takeTime))#############
     if req.get("queryResult").get("action")=="intent.messMenu":
         takeTime=parameters.get("date")
