@@ -24,35 +24,53 @@ from datetime import timedelta
 import datetime as dt
 import json 
 str_end = "\n\nIs there anything else you would like to know?"
-def checkJsonMeal(weekno,today):
-	with open('data_iconicGirls.json') as json_file:
-		data=json.load(json_file)
-		ls=data[str(weekno)][today.strftime("%A")]
-		s='\n'
-		for key in ls.keys():
-			s+="\n" + key + ":\n"
-			s+='\n'.join(ls[key])
-		return ("Your meal for " + str(today.date()) + " is " + s + str_end)
-def checkJsonfood(weekno,today,foodType):
-	with open('data_iconicGirls.json') as json_file:
-		data=json.load(json_file)
-		ls=data[str(weekno)][today.strftime("%A")][foodType]
-		s='\n'.join(ls)
-		return("Your "+foodType+" for "+str(today.date()) +" is "+s+str_end) 
+hinDay={"Sunday":"रविवार","Monday":"सोमवार","Tuesday":"मंगलवार","Wednesday":"बुधवार","Thursday":"गुरुवार","Friday":"शुक्रवार","Saturday":"शनिवार"}
+def checkJsonMeal(weekno,today,lang):
+    if(lang=="hi"):
+        with open('dataIconicGirlsHin.json') as json_file:
+            data=json.load(json_file)
+            ls=data[str(weekno)][hinDay.get(today.strftime("%A"))]
+            s='\n'
+            for key in ls.keys():
+                s+="\n" + key + ":\n"
+                s+='\n'.join(ls[key])
+            return ("Your meal for " + str(today.date()) + " is " + s + str_end)
+    else:
+        with open('data_iconicGirls.json') as json_file:
+        	data=json.load(json_file)
+        	ls=data[str(weekno)][today.strftime("%A")]
+        	s='\n'
+        	for key in ls.keys():
+        		s+="\n" + key + ":\n"
+        		s+='\n'.join(ls[key])
+        	return ("Your meal for " + str(today.date()) + " is " + s + str_end)
+def checkJsonfood(weekno,today,foodType,lang):
+    if(lang=="hi"):
+        with open('dataIconicGirlsHin.json') as json_file:
+            data=json.load(json_file)
+            ls=data[str(weekno)][hinDay.get(today.strftime("%A"))][foodType]
+            s='\n'.join(ls)
+            return("Your "+foodType+" for "+str(today.date()) +" is "+s+str_end) 
+    else:
+    	with open('data_iconicGirls.json') as json_file:
+    		data=json.load(json_file)
+    		ls=data[str(weekno)][today.strftime("%A")][foodType]
+    		s='\n'.join(ls)
+    		return("Your "+foodType+" for "+str(today.date()) +" is "+s+str_end) 
 def makeWebhookResult(req):
     ref_date=dt.datetime(2019,3,11).date()
     result=req.get("queryResult")
     print(result)
     parameters=result.get("parameters")
+    lang=result.get("languageCode") ####
     if req.get("queryResult").get("action")=="intent.messMenu":
         takeTime=parameters.get("date")
-        today =parse(takeTime)
         if(takeTime==""):
         	today=datetime.now()
         else:
         	today =parse(takeTime)
         weekno=(abs(math.floor(((today.date()-ref_date).days)/7)))%2
-        speech=checkJsonMeal(weekno,today)
+        speech=checkJsonMeal(weekno,today,lang)
         print("response from action messMenu")
         print(speech) 
         return{
@@ -68,7 +86,7 @@ def makeWebhookResult(req):
         	today =parse(takeTime)
         foodType=parameters.get("food")
         weekno=(abs(math.floor(((today.date()-ref_date).days)/7)))%2
-        speech=checkJsonfood(weekno,today,foodType)
+        speech=checkJsonfood(weekno,today,foodType,lang)
         print("response from action foodtime")
         print(speech) 
         return{
