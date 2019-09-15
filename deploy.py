@@ -43,15 +43,15 @@ def makeWebhookResult(req):
     ref_date=dt.datetime(2019,3,11).date()
     result=req.get("queryResult")
     print(result)
-    parameters=result.get("parameters")
+    parameters=result.get("parameters")\
+    print(parameters.get("date"),"&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&", parse(takeTime))#############
     if req.get("queryResult").get("action")=="intent.messMenu":
         takeTime=parameters.get("date")
-        today =parse(takeTime)  ############
+        today =parse(takeTime) ########
         if(takeTime==""):
         	today=datetime.now()
         else:
         	today =parse(takeTime)
-        print(today,"&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&")#############
         weekno=(abs(math.floor(((today.date()-ref_date).days)/7)))%2
         speech=checkJsonMeal(weekno,today)
         print("response from action messMenu")
