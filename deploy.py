@@ -44,7 +44,8 @@ def makeWebhookResult(req):
     result=req.get("queryResult")
     print(result)
     parameters=result.get("parameters")
-    print(parameters.get("date"),"&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&", parse(parameters.get("date")))#############
+    print(parameters.get("date"),"&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&")
+    # print(parameters.get("date"),"&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&", parse(parameters.get("date")))#############
     if req.get("queryResult").get("action")=="intent.messMenu":
         takeTime=parameters.get("date")
         today =parse(takeTime) ########
