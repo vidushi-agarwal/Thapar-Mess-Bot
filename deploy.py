@@ -46,6 +46,7 @@ def makeWebhookResult(req):
     parameters=result.get("parameters")
     if req.get("queryResult").get("action")=="intent.messMenu":
         takeTime=parameters.get("date")
+        today =parse(takeTime)  ############
         if(takeTime==""):
         	today=datetime.now()
         else:
