@@ -50,6 +50,7 @@ def makeWebhookResult(req):
         	today=datetime.now()
         else:
         	today =parse(takeTime)
+            print("&&&&&&&&&&&&&&&&&&&&&&&&&&",today);#############
         weekno=(abs(math.floor(((today.date()-ref_date).days)/7)))%2
         speech=checkJsonMeal(weekno,today)
         print("response from action messMenu")
@@ -60,7 +61,7 @@ def makeWebhookResult(req):
         }
     if req.get("queryResult").get("action")=="intent.foodTime":
         takeTime=parameters.get("date")
-        today =parse(takeTime)
+        today =parse(takeTime)  ############
         if(takeTime==""):
         	today=datetime.now()
         else:
