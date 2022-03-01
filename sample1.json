@@ -1,0 +1,75 @@
+{
+  "queryText": "GOOGLE_ASSISTANT_WELCOME",
+  "action": "input.welcome",
+  "parameters": {},
+  "allRequiredParamsPresent": True,
+  "fulfillmentText": "Hello Thapar Students! I will love to serve you. Please mention your query as What is in breakfast today? ,Today's menu , Dinner on 2019-12-30  etc.",
+  "fulfillmentMessages": [
+    {
+      "platform": "ACTIONS_ON_GOOGLE",
+      "simpleResponses": {
+        "simpleResponses": [
+          {
+            "textToSpeech": "Hello Thapar Students! I will love to serve you. Please mention your query as What is in breakfast today? ,Today's menu , Dinner on 2019-12-30  etc."
+          }
+        ]
+      }
+    },
+    {
+      "platform": "ACTIONS_ON_GOOGLE",
+      "listSelect": {
+        "title": "Select the Meal Type",
+        "items": [
+          { "info": { "key": "Lunch" }, "title": "Lunch", "image": {} },
+          { "info": { "key": "Breakfast" }, "title": "Breakfast", "image": {} }
+        ]
+      }
+    },
+    {
+      "platform": "ACTIONS_ON_GOOGLE",
+      "suggestions": {
+        "suggestions": [
+          { "title": "Exit" },
+          { "title": "I want to change hostel" }
+        ]
+      }
+    },
+    {
+      "text": {
+        "text": [
+          "Hello Thapar Students! I will love to serve you. Please mention your query as What is in breakfast today? ,Today's menu , Dinner on 2019-12-30  etc."
+        ]
+      }
+    }
+  ],
+  "outputContexts": [
+    {
+      "name": "projects/hostelimess/agent/sessions/ABwppHGW-RiLZo98YSMGK_LnqtXhuO3ZK35Yfq31h7oVgwj6lv_yHtDDxxHaQBlZoSLHvp0RUTL8BEU/contexts/actions_capability_account_linking"
+    },
+    {
+      "name": "projects/hostelimess/agent/sessions/ABwppHGW-RiLZo98YSMGK_LnqtXhuO3ZK35Yfq31h7oVgwj6lv_yHtDDxxHaQBlZoSLHvp0RUTL8BEU/contexts/actions_capability_media_response_audio"
+    },
+    {
+      "name": "projects/hostelimess/agent/sessions/ABwppHGW-RiLZo98YSMGK_LnqtXhuO3ZK35Yfq31h7oVgwj6lv_yHtDDxxHaQBlZoSLHvp0RUTL8BEU/contexts/actions_capability_audio_output"
+    },
+    {
+      "name": "projects/hostelimess/agent/sessions/ABwppHGW-RiLZo98YSMGK_LnqtXhuO3ZK35Yfq31h7oVgwj6lv_yHtDDxxHaQBlZoSLHvp0RUTL8BEU/contexts/actions_capability_screen_output"
+    },
+    {
+      "name": "projects/hostelimess/agent/sessions/ABwppHGW-RiLZo98YSMGK_LnqtXhuO3ZK35Yfq31h7oVgwj6lv_yHtDDxxHaQBlZoSLHvp0RUTL8BEU/contexts/google_assistant_input_type_voice"
+    },
+    {
+      "name": "projects/hostelimess/agent/sessions/ABwppHGW-RiLZo98YSMGK_LnqtXhuO3ZK35Yfq31h7oVgwj6lv_yHtDDxxHaQBlZoSLHvp0RUTL8BEU/contexts/google_assistant_welcome"
+    },
+    {
+      "name": "projects/hostelimess/agent/sessions/ABwppHGW-RiLZo98YSMGK_LnqtXhuO3ZK35Yfq31h7oVgwj6lv_yHtDDxxHaQBlZoSLHvp0RUTL8BEU/contexts/__system_counters__",
+      "parameters": { "no-input": 0.0, "no-match": 0.0 }
+    }
+  ],
+  "intent": {
+    "name": "projects/hostelimess/agent/intents/3552b127-1fa9-48fa-b33e-c44d426b0141",
+    "displayName": "Default Welcome Intent"
+  },
+  "intentDetectionConfidence": 1.0,
+  "languageCode": "en"
+}
